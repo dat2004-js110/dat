@@ -1,0 +1,39 @@
+#cau1{
+    padding: 0 auto;
+}
+#cau1 div{
+    float:left;
+    text-align: center;
+    margin-left:50px;
+}
+#cau2 div{
+    float: left;
+    margin-left: 20px;
+}
+#cau3 #text
+{
+    font-size: 40px;
+    font-style: italic;
+}
+#cau3 #author
+{
+    font-weight: 800;
+    font-size: 20px;
+}
+#cau4 table, th, td{
+    border: 1px outset black;
+    text-align: center;
+    width: 800px;
+}
+
+#cau4 .menu {
+    height: 50px;
+}
+
+#cau4 .menu input{
+    width: 250px;
+    margin-left: 5px;
+}
+#cau4 .menu button {
+    margin-left:5px;
+}

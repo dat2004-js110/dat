@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exsercise 8.css">
+</head>
+<body>
+    <h2>Câu 1</h2>
+    <div id="cau1">
+        <div id="countDown"><button>-</button></div>
+        <div><a id="ketqua"></a></div>
+        <div id="countUp"><button>+</button></div> 
+    </div><br>
+    <h2>Câu 2</h2>
+    <div id="cau2">
+        <div><input id="input" type="number" placeholder="seconds"></div>
+        <div><button id="start">Start</button></div>
+        <div><button id="stop">Stop</button></div> 
+        <div><a id="ketqua2"></a></div>
+    </div><br>
+    <h2>Câu 3</h2>
+    <div id="cau3">
+        <div><a id="quoteText"></a></div>
+        <div><a id="quoteAuthor"></a></div>
+        <div><button id="reload">Get Random Quote</button></div>
+    </div><br>
+    <h2>Câu 4</h2>
+    <div id="cau4">
+        <div class="menu">
+            <form id="input">
+                <input type="text" placeholder="Enter project" id="project">
+                <input type="text" placeholder="Enter task" id="task">
+                <input type="number" placeholder="Time spent" id="timespent">
+            </form>
+            <button id="add_btn">Add</button>
+            <button id="btnClear" onclick="clearform()">Clear</button>
+        </div>
+        
+        <table id="table">
+            <thead id="thead">
+                <tr id="t_header">
+                    <th>Project</th>
+                    <th>Task</th>
+                    <th>Time Spent</th>
+                </tr>
+            </thead>
+            <tbody id="ts_tbody">
+                <tr>
+                    <td>Project Test</td>
+                    <td>Task Test 1</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <script src="Exsercise 8.js"></script>
+</body>
+</html>
