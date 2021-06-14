@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Nhập email" id="email">
+        <input type="text" placeholder="Nhập password" id="password">
+        <div class="btn" id="addUser">ADD</div>
+    </form>
+
+    <table class="container" style="width:60%">
+        <thead>
+            <tr>
+                <th>#ID</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>UP|DE</th>
+            </tr>
+        </thead>
+        <!-- <tbody class="listUser">
+        </tbody> -->
+    </table>
+
+    <div class="listUser">
+
+    </div>
+
+    <script src="./index.js" type="module"></script>
+
+</body>
+
+</html>
