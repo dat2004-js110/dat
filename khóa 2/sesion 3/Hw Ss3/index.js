@@ -1,13 +1,13 @@
 import Employee from "./Employee.js"
 import "./ListEmployee.js"
-    var firebaseConfig = {
-        apiKey: "AIzaSyCBCO_4lC5K48bQAb6VcA3564Nn9xWPsX4",
-        authDomain: "js-ci63-demo.firebaseapp.com",
-        projectId: "js-ci63-demo",
-        storageBucket: "js-ci63-demo.appspot.com",
-        messagingSenderId: "447942836806",
-        appId: "1:447942836806:web:ae3705beee8f0220d10047"
-    };
+var firebaseConfig = {
+    apiKey: "AIzaSyCBCO_4lC5K48bQAb6VcA3564Nn9xWPsX4",
+    authDomain: "js-ci63-demo.firebaseapp.com",
+    projectId: "js-ci63-demo",
+    storageBucket: "js-ci63-demo.appspot.com",
+    messagingSenderId: "447942836806",
+    appId: "1:447942836806:web:ae3705beee8f0220d10047"
+  };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     
