@@ -48,21 +48,11 @@ input {
     background: #d3d3d3c2;
 }
 
-#getLink {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #838181;
-    background-color: #838181;
-    border-radius: 2px;
-    cursor: pointer;
-    position: relative;
-    top: 3px;
-    color: rgb(0 168 255);
-}
+
 
 #getLink:hover {
-    color: white;
-    background-color: #555454;;
+    color: rgb(173, 61, 61);
+    background-color: #ad6565;;
 }
 
 .fa-arrow-right {
@@ -76,10 +66,10 @@ input {
 select {
     width: 100px;
     height: 30px;
-    border: 1px solid #d3d3d3c2;
+    border: 1px solid #af4e4ec2;
     border-radius: 5px;
     outline: none;
-    background: #d3d3d3c2;
+    background: #613a3ac2;
 }
 
 .link-result {
@@ -88,7 +78,7 @@ select {
 
 .link-result a {
     font-size: 20px;
-    color: green;
+    color: rgb(122, 165, 43);
 }
 
 .result-ok {
@@ -96,11 +86,11 @@ select {
 }
 
 .link-result a:hover {
-    color: red;
+    color: rgb(182, 145, 145);
 }
 
 .link-result a:active {
-    color: blue;
+    color: rgb(14, 14, 39);
 }
 
 .info {
