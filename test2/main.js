@@ -58,9 +58,14 @@ async function getShortenURL() {
                 resultLink.href = `http://${resultURL.result.short_link2}`;
                 resultLink.textContent = resultURL.result.short_link2;
             }
-            
+            else {
+                resultLink.href = `http://${resultURL.result.short_link3}`;
+                resultLink.textContent = resultURL.result.short_link3;
+            }
         }
-        
+        else {
+            resultFalse.textContent = 'Không thể rút gọn link';
+        }
     }
 }
 
