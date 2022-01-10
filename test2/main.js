@@ -54,6 +54,19 @@ async function getShortenURL() {
                 resultLink.href = `http://${resultURL.result.short_link}`;
                 resultLink.textContent = resultURL.result.short_link;
             }
-         }
-       }
+            else if (typeUrl == "2") {
+                resultLink.href = `http://${resultURL.result.short_link2}`;
+                resultLink.textContent = resultURL.result.short_link2;
+            }
+            else {
+                resultLink.href = `http://${resultURL.result.short_link3}`;
+                resultLink.textContent = resultURL.result.short_link3;
+            }
+        }
+        else {
+            resultFalse.textContent = 'Không thể rút gọn link';
+        }
     }
+}
+
+document.getElementById('getLink').addEventListener('click', getShortenURL)
