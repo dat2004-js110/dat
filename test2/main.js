@@ -43,4 +43,17 @@ async function getShortenURL() {
     resultFalse.textContent = "";
     if(url == "") {
         resultFalse.textContent = 'Hãy điền Url bạn muốn rút gọn';
-   
+    }
+    else {
+        const reponse = await fetch(` https://api.shrtco.de/v2/shorten?url=${url}`);
+        const resultURL = await reponse.json();
+        if(resultURL.ok == true) {
+            resultOK.style.display = 'block';
+            const resultLink = document.querySelector('.result-ok a')
+            if(typeUrl == "1") {
+                resultLink.href = `http://${resultURL.result.short_link}`;
+                resultLink.textContent = resultURL.result.short_link;
+            }
+         }
+       }
+    }

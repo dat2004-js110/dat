@@ -19,7 +19,7 @@ function cau2(){
     start.addEventListener('click', () => {
         let count = Number(input.value);
         posKq.textContent = count;
-        setTime = setInterval(() => { posKq.textContent = count--;},1000);
+        setTime = setInterval(() => { posKq.textContent = count++;},1000);
     
     setTimeout(() => {posKq.textContent = "Time Out";
         clearInterval(setTime)},
@@ -30,7 +30,7 @@ function cau2(){
     clearInterval(setTime);
         })
 }
-// cau2();
+cau2();
 
 // Ex 3: Implement an offline random quote app
 function cau3(){
